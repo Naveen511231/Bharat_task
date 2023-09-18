@@ -1,0 +1,22 @@
+#body{
+    background-color: black;
+    margin: 15% 25% 0% 25%;
+text-align: center;
+    color: white;
+}
+#main{
+background-color: green;
+display: flex;
+flex-direction: row;
+text-align: center;
+justify-content: space-around;
+padding-bottom: 2%;
+}
+.input{
+    width: 14vw;
+}
+@media  screen and (max-width:700px){
+    #main{
+        display: block;
+    }
+}
